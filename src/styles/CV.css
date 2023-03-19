@@ -1,0 +1,11 @@
+.cv_img{
+	padding: 58px;
+	
+	width: 60%;
+	
+}
+
+.bloc_cv_img {
+	display: flex;
+	justify-content: center;
+}
