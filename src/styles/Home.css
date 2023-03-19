@@ -17,12 +17,14 @@ ul {
 
 /* Navigation */
 
+
   .nav_link {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	font-size: 24px;
 	text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+	
 
 	
 	
@@ -92,22 +94,45 @@ top: 50%; left: 50%; transform: translate(-50%, -50%);
 	display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 100px;
+ padding: 100px;
+
 	
 }
 
 .metier{
 	font-size: 3em;
+	padding: 30px;
 }
 
-
+.desk{
+	height: 400px;
+	display: block;
+	position: relative;
+top: 200px;left: -190px;
+z-index: 1;
+	
+}
+.opti{
+	height: 400px;
+	width: 80%;
+	display: block;
+	position: relative;
+top: -250px;left: 690px;
+z-index: 1;
+	
+}
+.seo{
+	height: 600px;
+	position: relative;
+		top: 200px;
+	right: 300px;
+	z-index: 0;
+	
+}
 
   /* Portfolio */
 
   .titre_portfolio {
-	margin-top: 200px;
 	column-count: 1;
   column-gap: 20px;
   display: flex;
@@ -218,6 +243,13 @@ justify-content: space-around
 
 .mail a {
 	text-decoration: none;
+}
+
+.fa-github
+{
+	color: white;
+	font-size: 4em;
+	padding: 20px;
 }
 /* Media Queries */
 @media all and (max-width: 812px) {
