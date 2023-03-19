@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import Header from '../components/Header';
 import Metier from '../components/Metier';
 import Portfolio from '../components/Portfolio';
+import Footer from '../components/Footer';
 
 const Home = () => {
 	return (
@@ -15,6 +16,7 @@ const Home = () => {
 				<Portfolio />
 				<Card />
 			</main>
+			<Footer />
 			
 		</div>
 	);
